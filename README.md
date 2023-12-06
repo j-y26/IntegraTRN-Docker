@@ -13,7 +13,7 @@ See the package GitHub page for more details.
 
 Ensure the operation system you use supports virtual environment.
 
-To install Docker, go to the [Docker official page](https://www.docker.com/products/docker-desktop/)https://www.docker.com/products/docker-desktop/ to install Docker Desktop. 
+To install Docker, go to the [Docker official page](https://www.docker.com/products/docker-desktop/) to install Docker Desktop. 
 
 ### Setting up the container
 
