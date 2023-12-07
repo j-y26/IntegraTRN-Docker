@@ -35,7 +35,7 @@ testthat
 
 # Install Bioconductor packages
 RUN R --vanilla -e 'BiocManager::install(c("BiocGenerics", "Biostrings", \
-"BSgenome", "BSgenome.Hsapiens.UCSC.hg38", "BSgenome.Mmusculus.UCSC.mm10", \
+"BSgenome", "BSgenome.Hsapiens.UCSC.hg38", \
 "ChIPseeker", "ComplexHeatmap", "DESeq2", "edgeR", "GENIE3", "GenomicRanges", \
 "monaLisa", "SummarizedExperiment", "TxDb.Hsapiens.UCSC.hg38.knownGene", \
 "TxDb.Mmusculus.UCSC.mm10.knownGene", "VariantAnnotation", "vsn", "WGCNA", \
