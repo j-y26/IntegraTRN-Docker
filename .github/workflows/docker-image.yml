@@ -21,7 +21,7 @@ jobs:
       run:
         echo $DOCKER_PASSWORD | docker login docker.io -u $DOCKER_USER --password-stdin
     - name: Build the Docker image for IntegraTRN
-      run: docker build . --file Dockerfile --tag kirin26/integra_trn:v0.1.0
+      run: docker build . --file Dockerfile --tag jyang26/integra_trn:v0.1.0
     - name: Push IntegraTRN to Docker Hub
-      run: docker push kirin26/integra_trn:v0.1.0
+      run: docker push jyang26/integra_trn:v0.1.0
 
